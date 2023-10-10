@@ -50,6 +50,30 @@ cad=`
             <p>$410,65</p>
             <button>Agregar al carrito</button>
         </div>
+        <div class="card" id="almacen">
+            <img src="./images/almacen/09 atun.webp" alt="atun">
+            <h4>Atun La Campagnola 170gr</h4>
+            <p>$1430,19</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="card" id="almacen">
+            <img src="./images/almacen/10 pate.webp" alt="pate">
+            <h4>Paté De Foie Swift 90gr</h4>
+            <p>$236,49</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="card" id="almacen">
+            <img src="./images/almacen/11 perita.webp" alt="tomate perita">
+            <h4>Tomate Perita Marolio 350gr</h4>
+            <p>$270,57</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="card" id="almacen">
+            <img src="./images/almacen/12 salsa.webp" alt="salsa">
+            <h4>Salsa Arcor Pizza 340gr</h4>
+            <p>$266,29</p>
+            <button>Agregar al carrito</button>
+        </div>
     </div>
 </div>
 `

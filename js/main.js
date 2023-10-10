@@ -1,10 +1,10 @@
 cad=`
 <div class="carrousel">
     <ul>
-        <li><img src="images/carrousel/01 dto bco nacion.png" alt=""></li>
-        <li><img src="images/carrousel/02 dto bco macro.png" alt=""></li>
-        <li><img src="images/carrousel/03 dto bco credicoop.png" alt=""></li>
-        <li><img src="images/carrousel/04 dto bco hipotecario.png" alt=""></li>
+        <li><img src="images/carrousel/01 dto nacion.png" alt=""></li>
+        <li><img src="images/carrousel/02 dto macro.png" alt=""></li>
+        <li><img src="images/carrousel/03 dto credicoop.png" alt=""></li>
+        <li><img src="images/carrousel/04 dto general.png" alt=""></li>
     </ul>
 </div>
 

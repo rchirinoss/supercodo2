@@ -50,6 +50,30 @@ cad=`
             <p>$599,00 / kg</p>
             <button>Agregar al carrito</button>
         </div>
+        <div class="card" id="frutas">
+            <img src="./images/frutasyverduras/09 palta.webp" alt="palta">
+            <h4>Palta</h4>
+            <p>$499,00 / Un</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="card" id="frutas">
+            <img src="./images/frutasyverduras/10 frutilla.webp" alt="frutilla">
+            <h4>Frutilla</h4>
+            <p>$1990,00 / kg</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="card" id="frutas">
+            <img src="./images/frutasyverduras/11 kiwi.webp" alt="kiwi">
+            <h4>Kiwi</h4>
+            <p>$3990,00 / kg</p>
+            <button>Agregar al carrito</button>
+        </div>
+         <div class="card" id="frutas">
+            <img src="./images/frutasyverduras/12 limon.webp" alt="limon">
+            <h4>Limon</h4>
+            <p>$349,00 / kg</p>
+            <button>Agregar al carrito</button>
+        </div>
     </div>
 </div>
 `
