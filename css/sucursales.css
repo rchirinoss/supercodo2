@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#sucursales{
+    display: grid;
+    width: 100%;
+    height: 100px;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "suc1";
+    grid-template-areas: "suc2";
+}
+
+#sucursales .suc1, .suc2{
+    grid-area: suc1, suc2;
+}
+
+.suc1, suc2{
+    padding-inline: 15px;    
+    text-align: center;
+    margin-block: auto;
+}
+
