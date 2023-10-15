@@ -24,6 +24,7 @@ let cad = `
             </li>
             <li><a href="sucursales.html">Sucursales</a></li>
             <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="nosotros.html">Quienes Somos</a></li>
         </ul>        
     </nav>
     

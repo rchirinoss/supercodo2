@@ -1,0 +1,88 @@
+*{
+	margin: 10px;
+	padding: 0;
+	background: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.wrap{
+	display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.tarjeta-wrap{
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 300px;
+	height: 500px;
+ 	background: rgba(185, 184, 184, 0.918);
+	position: relative;
+	transform-style: preserve-3d;
+	transition: .7s ease;
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    background-color: lightgrey;
+    color: white;
+    border:2px solid lightgrey;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    object-fit:cover;
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	transform: rotateY(180deg);
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-family: "open sans";
+    font-size: 12px;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	transform: rotateY(180deg);
+}
+
+.card1{
+	background-image: url(/images/nosotros/01.jpg);
+	background-size: cover;
+}
+
+.card2{
+	background-image: url(/images/nosotros/02.jpg);
+	background-size: cover;
+}
+
+.card3{
+	background-image: url(/images/nosotros/03.jpg);
+	background-size: cover;
+}
+
+.card4{
+	background-image: url(/images/nosotros/04.jpg);
+	background-size: cover;
+}
