@@ -77,5 +77,4 @@ cad=`
     </div>
 </div>
 `
-
-document.querySelector("mainfrutasyverduras").innerHTML = cad 
+document.querySelector("mainfrutasyverduras").innerHTML = cad
