@@ -10,12 +10,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&display=swap" rel="stylesheet">  
+    <style>
+        * {
 
+            box-sizing: border-box;
+
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .tarjeta {
+            width: 300px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        div img {
+            width: 100%;
+            height: 200px;
+
+            object-fit: cover;
+
+        }
+
+        #app {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    </style>
 </head>
 <body>
     <header>
 
     </header>
+      <div id="app">
+        <div class="tarjeta" v-for="elemento in productos.almacen">
+            <img v-bind:src="elemento.imagen" :alt="elemento.descripcion">
+            <p>Descripcion:{{elemento.descripcion}}</p>
+            <p>Precio:{{elemento.precio}}</p>
+        </div>
+        <div class="tarjeta" v-for="elemento in productos.bebidas">
+            <img v-bind:src="elemento.imagen" :alt="elemento.descripcion">
+            <p>Descripcion:{{elemento.descripcion}}</p>
+            <p>Precio:{{elemento.precio}}</p>
+        </div>
+        <div class="tarjeta" v-for="elemento in productos.frutasyverduras">
+            <img v-bind:src="elemento.imagen" :alt="elemento.descripcion">
+            <p>Descripcion:{{elemento.descripcion}}</p>
+            <p>Precio:{{elemento.precio}}</p>
+        </div>
+        <div class="tarjeta" v-for="elemento in productos.limpieza">
+            <img v-bind:src="elemento.imagen" :alt="elemento.descripcion">
+            <p>Descripcion:{{elemento.descripcion}}</p>
+            <p>Precio:{{elemento.precio}}</p>
+        </div>
+    </div>
     <mainalmacen>
 
     </mainalmacen>
@@ -28,15 +80,16 @@
     <mainlimpieza>
 
     </mainlimpieza>
+   
+   
     <footer>        
         
     </footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
+    <script src="./js/productos.js"></script>
     <script src="./js/headeryfooter.js"></script>
-    <script src="./js/almacen.js"></script>
-    <script src="./js/bebidas.js"></script>
-    <script src="./js/frutasyverduras.js"></script>
-    <script src="./js/limpieza.js"></script>
+    <script src="./js/main.js"></script>
     <script src="./js/app.js" async></script> 
 </body>
 </html>

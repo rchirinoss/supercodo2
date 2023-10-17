@@ -1,5 +1,6 @@
 {
-    "almacen":[
+"productos":{
+   "almacen":[
         {
         "id":1,
         "descripcion": "Lenteja La Española 400gr",
@@ -294,5 +295,5 @@
         "precio": "894,40",
         "imagen": "./images/limpieza/12 insecticida.webp"
         }  
-    ]
+    ]}
 }       
