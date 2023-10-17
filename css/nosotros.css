@@ -14,10 +14,12 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
+	gap: 200px;
 }
 
 .tarjeta-wrap{
 	perspective: 800;
+
 }
 
 .tarjeta{
@@ -36,7 +38,8 @@ h1{
     flex-wrap: wrap;
     justify-content: space-evenly;
     object-fit:cover;
-
+    display: grid;
+	
 }
 
 .adelante, .atras{
@@ -45,6 +48,7 @@ h1{
 	position: absolute;
 	top: 0;
 	left: 0;
+	padding:10px;
 	backface-visibility: hidden;
 }
 
