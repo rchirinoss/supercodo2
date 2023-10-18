@@ -40,7 +40,7 @@
     border: 1px solid #fe6a61;
 }
 
-.productos #frutas, #verduras{
+.productos #frutasyverduras {
     border: 1px solid #77de77;
 }
 
@@ -67,7 +67,7 @@
     scale: 1.05;
 }
 
-.productos #frutas:hover, #verduras:hover{
+.productos #frutasyverduras:hover{
     box-shadow: 0 0 10px #77de77;
     scale: 1.05;
 }
@@ -109,7 +109,7 @@
     background-color: #fe6a61;
 }
 
-#frutas button, #verduras button{
+#frutasyverduras button{
     background-color: #77de77;
 }
 
