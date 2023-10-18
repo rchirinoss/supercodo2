@@ -341,11 +341,42 @@
         {
             "nombre": "Belgrano",
             "descripcion": "Codo Belgrano",
-            "direccion": "cabildo 2075",
+            "direccion": "Cabildo 2075",
             "horario": "de 10 a 20hs",
             "email": "belgrano@supercodo.com.ar",
             "telefono": "0810-555-6325",
-            "mapa": "https://maps.app.goo.gl/H6pivBtf2ZtoTXd26"
+            "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.8234357100982!2d-58.52629272487558!3d-34.50736025241464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb105adb5713b%3A0xb6bfa8555b403511!2sAlmundo!5e0!3m2!1ses-419!2sar!4v1694630331369!5m2!1ses-419!2sar"
+
+        },
+
+        {
+            "nombre": "Unicenter",
+            "descripcion": "Codo Unicenter",
+            "direccion": "Parana 3745",
+            "horario": "de 10 a 22hs",
+            "email": "unicenter@supercodo.com.ar",
+            "telefono": "0810-555-6324",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.8234357100982!2d-58.52629272487558!3d-34.50736025241464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb105adb5713b%3A0xb6bfa8555b403511!2sAlmundo!5e0!3m2!1ses-419!2sar!4v1694630331369!5m2!1ses-419!2sar"
+
+        },
+        {
+            "nombre": "Abasto",
+            "descripcion": "Codo Abasto",
+            "direccion": "AV Corrientes 2275",
+            "horario": "de 10 a 22hs",
+            "email": "abasto@supercodo.com.ar",
+            "telefono": "0810-555-6324",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.8234357100982!2d-58.52629272487558!3d-34.50736025241464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb105adb5713b%3A0xb6bfa8555b403511!2sAlmundo!5e0!3m2!1ses-419!2sar!4v1694630331369!5m2!1ses-419!2sar"
+
+        },
+        {
+            "nombre": "Alto Palermo",
+            "descripcion": "Codo Palermo",
+            "direccion": "AV Santa Fe 3960",
+            "horario": "de 10 a 22hs",
+            "email": "palermo@supercodo.com.ar",
+            "telefono": "0810-555-6327",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.8234357100982!2d-58.52629272487558!3d-34.50736025241464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb105adb5713b%3A0xb6bfa8555b403511!2sAlmundo!5e0!3m2!1ses-419!2sar!4v1694630331369!5m2!1ses-419!2sar"
 
         }
     ]

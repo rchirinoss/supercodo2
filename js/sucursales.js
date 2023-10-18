@@ -1,15 +1,3 @@
-// cad=`
-// <div id="sucursales">
-//     <div class="suc1">
-
-//     </div>
-//     <div class="suc2">
-
-//     </div>
-// </div>
-// `
-
-// document.querySelector("main").innerHTML = cad
 
 const { createApp } = Vue
 createApp({
@@ -34,14 +22,19 @@ createApp({
                     this.datos = data.sucursales
                     this.datosFinales = data.sucursales
                     for (elemento of this.datos) {
-                        if (this.tipos.indexOf(elemento.nombre) < 0)  //encuentra
+                        if (this.tipos.indexOf(elemento.nombre) < 0)
                             this.tipos.push(elemento.nombre)
                     }
                     console.log(this.tipos)
                 }
                 );
         },
-     },
+
+        filtrarDatos() {
+            nombre = document.querySelector("select").value
+            this.datosFinales = this.datos.filter(x => x.nombre === nombre)
+        },
+    },
 
     created() {
         this.fetchdata(this.url)

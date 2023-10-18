@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./images/header/minilogo.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/headeryfooter.css">
     <link rel="stylesheet" href="./css/sucursales.css">
+    <link rel="stylesheet" href="./css/productos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&display=swap" rel="stylesheet">  
@@ -19,13 +20,24 @@
     <main>
         
         <div id="app">
+
+            <select name="tipo" id="tipo">
+                <option  v-for="elemento in tipos" :value="elemento" >{{elemento}}</option>     
+              </select> 
+              <button class="btn-filtro" v-on:click="filtrarDatos()">Filtrar</button><br>
+
             
             <div class="container">
                 <div class="productos">
-                    <div class="item" v-for="elemento in sucursales" :id="elemento.nombre">
+                    <div class="item" v-for="elemento in datosFinales" :id="elemento.nombre">
                         <h4 class="titulo-item">{{elemento.descripcion}}</h4>
+                        <p class="precio-item"><b>Direccion </b>{{elemento.direccion}}</p>
                         <p class="precio-item"><b>Nuestro horario: </b>{{elemento.horario}}</p>
-                        <button class="boton-item">Agregar al carrito</button>
+                        <p class="precio-item"><b>Email de contacto </b>{{elemento.email}}</p>
+                        <p class="precio-item"><b>Tel de contacto: </b>{{elemento.telefono}}</p>
+                        <iframe :src="elemento.mapa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                       
                     </div>
                 </div>
             </div>
@@ -38,7 +50,10 @@
     <footer>        
         
     </footer>
-    
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     <script src="./js/headeryfooter.js"></script>
     <script src="./js/sucursales.js"></script>       
 </body>
