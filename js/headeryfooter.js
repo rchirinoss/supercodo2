@@ -53,9 +53,6 @@ cad = `
         <a href="#">0810-810-9994 -</a><a href="contacto.html">Contacto</a>       
     </div>
 </div>
-
-<hr>
-
 <div class="grid">
     <ul class="list1">
         <li class="title">Mi Cuenta</li>

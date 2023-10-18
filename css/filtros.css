@@ -1,0 +1,10 @@
+.btn-filtro{
+    background-color:  #fff;   
+    color: #5271FF;
+    border: solid #5271FF;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+
+}

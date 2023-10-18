@@ -215,9 +215,10 @@ footer{
 #content p{
     font-size: 16px;
     color: white;
-    background-color: #444;
     padding-block: 3px;
     margin-bottom: 2px;
+    border: solid 0.5px ;
+    border-radius: 15px ;
 }
  
 #content a{
@@ -267,7 +268,8 @@ footer .list1, .list2, .list3, .list4{
 .grid .title{
     font-size: 16px;
     padding-block: 3px;
-    background-color: #444;
+    border: solid 0.5px ;
+    border-radius: 15px ;
 }
 
 .grid ul li, a{
