@@ -17,6 +17,22 @@
 
     </header>
     <main>
+        
+        <div id="app">
+            
+            <div class="container">
+                <div class="productos">
+                    <div class="item" v-for="elemento in sucursales" :id="elemento.nombre">
+                        <h4 class="titulo-item">{{elemento.descripcion}}</h4>
+                        <p class="precio-item"><b>Nuestro horario: </b>{{elemento.horario}}</p>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+       
 
     </main>
     <footer>        

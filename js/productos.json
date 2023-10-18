@@ -336,5 +336,17 @@
         "seccion":"limpieza",
         "imagen": "./images/limpieza/12 insecticida.webp"
         }  
+    ],
+    "sucursales":[
+        {
+            "nombre": "Belgrano",
+            "descripcion": "Codo Belgrano",
+            "direccion": "cabildo 2075",
+            "horario": "de 10 a 20hs",
+            "email": "belgrano@supercodo.com.ar",
+            "telefono": "0810-555-6325",
+            "mapa": "https://maps.app.goo.gl/H6pivBtf2ZtoTXd26"
+
+        }
     ]
 }       
